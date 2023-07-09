@@ -1,0 +1,256 @@
+@import '../Common/Common.scss';
+
+.eight{
+    width: 100%;
+    min-height: 80vh;
+    background-image: url('../../images/jkjk-min.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -120px;
+
+    .eight-inner{
+        min-height: 80vh;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+
+        .content{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 150px;
+
+            .left{
+                padding: 30px;
+                background-color: $white;
+
+                h2{
+                    font-family: $montserrat;
+                    margin-bottom: 30px;
+                }
+
+                h3{
+                    font-family: $montserrat;
+                    color: $orange;
+                    text-decoration: underline;
+                    text-align: center;
+                    line-height: 30px;
+                    font-weight: normal;
+                    margin-bottom: 30px;
+
+                    &:hover{
+                        color: $black;
+                        cursor: pointer;
+                    }
+                }
+
+                h4{
+                    color: $black;
+                    font-family: $roboto;
+                    font-weight: normal;
+                    font-size: 16px;
+                    font-style: italic;
+                    line-height: 25px;
+                    text-align: center;
+                }
+
+            }
+
+            .right{
+                padding: 30px;
+                background-color: $orange;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 15px;
+
+                .item{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    img{
+                        width: 10px;
+                        height: 10px;
+                        margin-right: 10px;
+                    }   
+
+                    h4{
+                        font-family: $roboto;
+                        color: $white;
+                        font-weight: normal;
+                        letter-spacing: 1.5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .eight{
+        background-position-y: 0;
+    
+        .eight-inner{
+    
+            .content{
+    
+                .left{
+    
+                    h2{
+                   
+                    }
+    
+                    h3{
+                        
+                    }
+    
+                    h4{
+
+                    }
+    
+                }
+    
+                .right{
+    
+                    .item{
+    
+                        img{
+                           
+                        }   
+    
+                        h4{
+                          
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .eight{
+        background-size: cover;
+    
+        .eight-inner{
+    
+            .content{
+    
+                .left{
+    
+                    h2{
+                   
+                    }
+    
+                    h3{
+
+                    }
+    
+                    h4{
+
+                    }
+    
+                }
+    
+                .right{
+    
+                    .item{
+    
+                        img{
+                           
+                        }   
+    
+                        h4{
+                          
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .eight{
+    
+        .eight-inner{
+    
+            .content{
+    
+                .left{
+    
+                    h2{
+                   
+                    }
+    
+                    h3{
+
+                    }
+    
+                    h4{
+
+                    }
+    
+                }
+    
+                .right{
+    
+                    .item{
+    
+                        img{
+                           
+                        }   
+    
+                        h4{
+                          
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .eight{
+    
+        .eight-inner{
+    
+            .content{
+                grid-template-columns: 1fr;
+    
+                .left{
+    
+                    h2{
+                    }
+    
+                    h3{
+                        font-size: 17px;
+                    }
+    
+                    h4{
+                        font-size: 15px;
+                    }
+    
+                }
+    
+                .right{
+    
+                    .item{
+    
+                        img{
+                           
+                        }   
+    
+                        h4{
+                          font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,140 @@
+@import '../Common/Common.scss';
+
+.hero{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    // background-image: url('../../images/9.jpg');
+    background:linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../../images/9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .hero-inner{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        min-height: calc(100vh - 80px);
+        justify-content: flex-end;
+
+        .content{
+            border: 20px solid $orange;
+            max-width: 600px;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 30px;
+
+            h1{
+                font-size: 80px;
+                font-family: $openSans;
+                color: $white;
+            }
+
+            h5{
+                font-size: 20px;
+                font-weight: normal;
+                font-style: italic;
+                font-family: $openSans;
+                color: $white;
+                margin-bottom: 20px;
+            }
+
+            .link{
+                color: $white;
+                width: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px 30px;
+                background-color: $orange;
+                font-family: $openSans;
+                font-weight: bold;
+                border-radius: 30px;
+
+                &:hover{
+                    background-color: $white;
+                    color: $orange;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .hero{
+
+        .hero-inner{
+            padding: 0 30px;
+    
+            .content{
+    
+                h1{
+    
+                }
+    
+                h5{
+    
+                }
+    
+                .link{
+    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hero{
+        background-position: unset;
+
+        .hero-inner{
+    
+            .content{
+    
+                h1{
+    
+                }
+    
+                h5{
+    
+                }
+    
+                .link{
+    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero{
+
+        .hero-inner{
+            padding: 0 30px;
+            justify-content: center;
+    
+            .content{
+                border: 10px solid $orange;
+                width: 300px;
+    
+                h1{
+                    font-size: 60px;
+                }
+    
+                h5{
+                    font-size: 16px;
+                }
+    
+                .link{
+                    width: 200px;
+                    padding: 15px 20px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

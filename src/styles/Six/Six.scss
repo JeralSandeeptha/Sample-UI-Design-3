@@ -1,0 +1,284 @@
+@import '../Common/Common.scss';
+
+.six{
+    width: 100%;
+    min-height: 45vh;
+
+    .six-inner{
+        width: 100%;
+        min-height: 45vh;
+        padding: 0 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .img{
+            cursor: pointer;
+        }
+
+        .box1{
+            background-image: url('../../images/80fd24bc-f01b-aac5-2941-18f4ec01acbf.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .box2{
+            background-image: url('../../images/aaa90fbe-1b90-3607-4d63-f1658876c83f.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .box3{
+            background-image: url('../../images/55.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .box4{
+            background-image: url('../../images/trt.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .box4{
+            background-image: url('../../images/trt.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bg1{
+            width: 100%;
+            min-height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0,0,0,0.5);
+            transform: translateX(-100%);
+
+            .box{
+                max-width: 500px;
+                height: 500px;
+            }
+
+            .close{
+                top: 20px;
+                right: 20px;
+                cursor: pointer;
+                position: absolute;
+                color: $white;
+            }
+        }
+
+        .bg2{
+            width: 100%;
+            min-height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0,0,0,0.5);
+            transform: translateX(-100%);
+
+            .box{
+                max-width: 500px;
+                height: 500px;
+            }
+
+            .close{
+                top: 20px;
+                right: 20px;
+                cursor: pointer;
+                position: absolute;
+                color: $white;
+            }
+        }
+
+        .bg3{
+            width: 100%;
+            min-height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0,0,0,0.5);
+            transform: translateX(-100%);
+
+            .box{
+                max-width: 500px;
+                height: 500px;
+            }
+
+            .close{
+                top: 20px;
+                right: 20px;
+                cursor: pointer;
+                position: absolute;
+                color: $white;
+            }
+        }
+
+        .bg4{
+            width: 100%;
+            min-height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0,0,0,0.5);
+            transform: translateX(-100%);
+
+            .box{
+                max-width: 500px;
+                height: 500px;
+            }
+
+            .close{
+                top: 20px;
+                right: 20px;
+                cursor: pointer;
+                position: absolute;
+                color: $white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .six{
+
+        .six-inner{
+            grid-template-columns: 1fr 1fr;
+            
+            .img{
+
+            }
+
+            .bg1{
+
+                img{
+                    max-width: 300px;
+                    max-height: 300px;
+                }
+            }
+            .bg2{
+
+                img{
+                    max-width: 300px;
+                    max-height: 300px;
+                }
+            }
+            .bg3{
+
+                img{
+                    max-width: 300px;
+                    max-height: 300px;
+                }
+            }
+            .bg4{
+
+                img{
+                    max-width: 300px;
+                    max-height: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .six{
+
+        .six-inner{
+            grid-template-columns: 1fr 1fr;
+            
+            .img{
+
+            }
+
+            .bg1{
+
+                img{
+                    max-width: 300px;
+                    max-height: 300px;
+                }
+            }
+            .bg2{
+
+                img{
+                    max-width: 300px;
+                    max-height: 300px;
+                }
+            }
+            .bg3{
+
+                img{
+                    max-width: 300px;
+                    max-height: 300px;
+                }
+            }
+            .bg4{
+
+                img{
+                    max-width: 300px;
+                    max-height: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px){
+    .six{
+
+        .six-inner{
+            grid-template-columns: 1fr;
+            
+            .img{
+                height: 300px;
+            }
+
+            .bg1{
+
+                img{
+                    max-width: 250px;
+                    max-height: 250px;
+                }
+            }
+            .bg2{
+
+                img{
+                    max-width: 250px;
+                    max-height: 250px;
+                }
+            }
+            .bg3{
+
+                img{
+                    max-width: 250px;
+                    max-height: 250px;
+                }
+            }
+            .bg4{
+
+                img{
+                    max-width: 250px;
+                    max-height: 250px;
+                }
+            }
+        }
+    }
+}

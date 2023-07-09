@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.five {
+  width: 100%;
+  background-color: #fff;
+}
+.five .five-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 30px 80px 30px;
+  display: grid;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.five .five-inner .box {
+  display: flex;
+  flex-direction: column;
+}
+.five .five-inner .box img {
+  height: 450px;
+  width: 100%;
+  border: 5px solid #F19A0E;
+}
+.five .five-inner .box h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+.five .five-inner .box h5 {
+  font-family: "Roboto", sans-serif;
+  color: #adadad;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 16px;
+}
+.five .five-inner .box .link {
+  font-family: "Roboto", sans-serif;
+  color: #F19A0E;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 1200px) {
+  .five .five-inner {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+@media screen and (max-width: 992px) {
+  .five .five-inner {
+    padding: 50px 60px 80px 60px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+@media screen and (max-width: 768px) {
+  .five .five-inner .box img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .five .five-inner {
+    padding: 50px 30px 80px 30px;
+  }
+  .five .five-inner .box h3 {
+    font-size: 25px;
+  }
+  .five .five-inner .box h5 {
+    font-size: 15px;
+  }
+  .five .five-inner .box .link {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=Five.css.map */

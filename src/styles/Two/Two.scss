@@ -1,0 +1,96 @@
+@import '../Common/Common.scss';
+
+.two{
+    background:linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../../images/dfdfdf-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 80vh;
+
+    .two-inner{
+        max-width: 1200px;
+        margin: 0 auto;
+        min-height: 80vh;
+        padding: 50px 50px;
+
+        .content{
+            max-width: 700px;
+            min-height: 80vh;
+            display: grid;
+            gap: 30px;
+            grid-template-columns: 1fr 1fr;
+
+            .box{
+                background-color: rgba(0,0,0,0.8);
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                -webkit-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 37px 0px rgba(0,0,0,0.75);
+
+                img{
+                    width: 75px;
+                    margin-bottom: 10px;
+                }
+
+                h3{
+                    margin-bottom: 10px;
+                    color: $white;
+                    font-size: 20px;
+                    font-family: $montserrat;
+                }
+
+                h5{
+                    margin-bottom: 10px;
+                    color: $white;
+                    font-style: italic;
+                    font-family: $openSans;
+                    font-weight: normal;
+                }
+
+                .link{
+                    color: $white;
+                    font-style: italic;
+                    font-family: $openSans;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .two{
+    
+        .two-inner{
+            padding: 50px 30px;
+    
+            .content{
+                grid-template-columns: 1fr;
+    
+                .box{
+    
+                    img{
+                        
+                    }
+    
+                    h3{
+                       
+                    }
+    
+                    h5{
+                     
+                    }
+    
+                    .link{
+                        
+                    }
+                }
+            }
+        }
+    }
+}

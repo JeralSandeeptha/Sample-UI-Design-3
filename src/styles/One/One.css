@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.one {
+  width: 100%;
+  min-height: 40vh;
+}
+.one .one-inner {
+  max-width: 1200px;
+  min-height: 40vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+.one .one-inner h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.one .one-inner h5 {
+  max-width: 650px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #adadad;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.one .one-inner .link {
+  color: #fff;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  background-color: #F19A0E;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 2px solid #F19A0E;
+}
+.one .one-inner .link:hover {
+  background-color: #fff;
+  color: #F19A0E;
+}
+
+@media screen and (max-width: 768px) {
+  .one .one-inner h2 {
+    font-size: 40px;
+  }
+  .one .one-inner h5 {
+    font-size: 15px;
+  }
+  .one .one-inner .link {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .one .one-inner {
+    padding: 50px 30px;
+  }
+  .one .one-inner h2 {
+    font-size: 40px;
+  }
+  .one .one-inner h5 {
+    font-size: 17px;
+  }
+  .one .one-inner .link {
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=One.css.map */

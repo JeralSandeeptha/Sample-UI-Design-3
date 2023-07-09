@@ -1,0 +1,112 @@
+@import '../Common/Common.scss';
+
+.four{
+    background:linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url('../../images/-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 75vh;
+
+    .four-inner{
+        max-width: 1200px;
+        margin: 0 auto;
+        min-height: 75vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 30px;
+
+        h2{
+            font-size: 60px;
+            font-family: $montserrat;
+            color: $white;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        h5{
+            font-size: 20px;
+            font-family: $montserrat;
+            font-style: italic;
+            font-weight: normal;
+            text-align: center;
+            line-height: 40px;
+            color: $white;
+            margin-bottom: 50px;
+        }
+
+        .btn-section{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+            justify-content: center;
+
+            .link{
+                color: $white;
+                width: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px 30px;
+                background-color: $orange;
+                font-family: $openSans;
+                font-weight: bold;
+                border-radius: 30px;
+    
+                &:hover{
+                    background-color: $white;
+                    color: $orange;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .four{
+    
+        .four-inner{
+            
+    
+            h2{
+                font-size: 40px;
+            }
+    
+            h5{
+                font-size: 15px;
+            }
+    
+            .btn-section{
+    
+                .link{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .four{
+    
+        .four-inner{
+            
+    
+            h2{
+            }
+    
+            h5{
+                font-size: 17px;
+            }
+    
+            .btn-section{
+                
+    
+                .link{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

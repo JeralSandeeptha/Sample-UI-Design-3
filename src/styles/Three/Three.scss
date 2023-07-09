@@ -1,0 +1,113 @@
+@import '../Common/Common.scss';
+
+.three{
+    width: 100%;
+    background-color: $white;
+
+    .three-inner{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 50px 30px 80px 30px;
+
+        .title{
+            margin-bottom: 50px;
+
+            .head{
+                text-align: center;
+                margin-bottom: 20px;
+                font-family: $montserrat;
+                font-size: 60px;
+                color: $black;
+            }
+
+            .sub-head{
+                max-width: 750px;
+                margin: 0 auto;
+                font-family: $roboto;
+                line-height: 30px;
+                font-size: 18px;
+                font-style: italic;
+                font-weight: normal;
+                color: $lightGray;
+                text-align: center;
+            }
+        }
+
+        .items{
+            display: grid;
+            gap: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr ));
+
+            .box{
+                background-color: $white;
+
+                img{
+                    width: 100%;
+                    border: 5px solid $orange;
+                }
+
+                .name{
+                    color: $black;
+                    margin-bottom: 10px;
+                    font-family: $montserrat;
+                    margin-top: 10px;
+                }
+
+                .description{
+                    color: $lightGray;
+                    font-family: $roboto;
+                    font-style: italic;
+                    font-weight: normal;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+
+                .price{
+                    color: $orange;
+                    font-family: $montserrat;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .three{
+    
+        .three-inner{
+    
+            .title{
+    
+                .head{
+                    font-size: 40px;
+                }
+    
+                .sub-head{
+                    font-size: 15px;
+                }
+            }
+    
+            .items{
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    
+                .box{
+    
+                    img{
+                    }
+    
+                    .name{
+                       
+                    }
+    
+                    .description{
+                        
+                    }
+    
+                    .price{
+                     
+                    }
+                }
+            }
+        }
+    }
+}

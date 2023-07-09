@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.four {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("../../images/-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 75vh;
+}
+.four .four-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 30px;
+}
+.four .four-inner h2 {
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.four .four-inner h5 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.four .four-inner .btn-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.four .four-inner .btn-section .link {
+  color: #fff;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  background-color: #F19A0E;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.four .four-inner .btn-section .link:hover {
+  background-color: #fff;
+  color: #F19A0E;
+}
+
+@media screen and (max-width: 768px) {
+  .four .four-inner h2 {
+    font-size: 40px;
+  }
+  .four .four-inner h5 {
+    font-size: 15px;
+  }
+  .four .four-inner .btn-section .link {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .four .four-inner h5 {
+    font-size: 17px;
+  }
+  .four .four-inner .btn-section .link {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=Four.css.map */
